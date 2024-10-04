@@ -14,7 +14,8 @@ public class MySQLConnection {
 
         Connection conexao = null;
         try {
-            DriverManager.getConnection(URL, USER, PASSWORD);
+            conexao = DriverManager.getConnection(URL, USER, PASSWORD);
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
