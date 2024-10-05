@@ -10,7 +10,7 @@ public class MySQLConnection {
         //conexao com o banco
         final String URL = "jdbc:mysql://localhost:3306/primeira_api";
         final String USER = "root";
-        final String PASSWORD = "Hwbfaa65@";
+        final String PASSWORD = "";
 
         Connection conexao = null;
         try {

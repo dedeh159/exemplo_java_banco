@@ -47,7 +47,7 @@ public class Main {
             System.out.println(resultado);
 
             while (resultado.next()) {
-                System.out.println(resultado.getInt("id"));
+
                 int id = resultado.getInt("id");
                 System.out.println(resultado.getString("nome"));
                 String nome = resultado.getString("nome");
